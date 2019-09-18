@@ -1,0 +1,230 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>Lyrics_Story_Blog</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+
+
+:root { --side-bar-bg-color: #fafafa; --control-text-color: #777; }
+html { font-size: 16px; }
+body { font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: rgb(51, 51, 51); line-height: 1.6; }
+#write { max-width: 860px; margin: 0px auto; padding: 30px 30px 100px; }
+#write > ul:first-child, #write > ol:first-child { margin-top: 30px; }
+a { color: rgb(65, 131, 196); }
+h1, h2, h3, h4, h5, h6 { position: relative; margin-top: 1rem; margin-bottom: 1rem; font-weight: bold; line-height: 1.4; cursor: text; }
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor { text-decoration: none; }
+h1 tt, h1 code { font-size: inherit; }
+h2 tt, h2 code { font-size: inherit; }
+h3 tt, h3 code { font-size: inherit; }
+h4 tt, h4 code { font-size: inherit; }
+h5 tt, h5 code { font-size: inherit; }
+h6 tt, h6 code { font-size: inherit; }
+h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height: 1.2; border-bottom: 1px solid rgb(238, 238, 238); }
+h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height: 1.225; border-bottom: 1px solid rgb(238, 238, 238); }
+h3 { font-size: 1.5em; line-height: 1.43; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1em; }
+h6 { font-size: 1em; color: rgb(119, 119, 119); }
+p, blockquote, ul, ol, dl, table { margin: 0.8em 0px; }
+li > ol, li > ul { margin: 0px; }
+hr { height: 2px; padding: 0px; margin: 16px 0px; background-color: rgb(231, 231, 231); border: 0px none; overflow: hidden; box-sizing: content-box; }
+li p.first { display: inline-block; }
+ul, ol { padding-left: 30px; }
+ul:first-child, ol:first-child { margin-top: 0px; }
+ul:last-child, ol:last-child { margin-bottom: 0px; }
+blockquote { border-left: 4px solid rgb(223, 226, 229); padding: 0px 15px; color: rgb(119, 119, 119); }
+blockquote blockquote { padding-right: 0px; }
+table { padding: 0px; word-break: initial; }
+table tr { border-top: 1px solid rgb(223, 226, 229); margin: 0px; padding: 0px; }
+table tr:nth-child(2n), thead { background-color: rgb(248, 248, 248); }
+table tr th { font-weight: bold; border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-color: rgb(223, 226, 229); border-right-color: rgb(223, 226, 229); border-left-color: rgb(223, 226, 229); border-image: initial; border-bottom-style: initial; border-bottom-color: initial; margin: 0px; padding: 6px 13px; }
+table tr td { border: 1px solid rgb(223, 226, 229); margin: 0px; padding: 6px 13px; }
+table tr th:first-child, table tr td:first-child { margin-top: 0px; }
+table tr th:last-child, table tr td:last-child { margin-bottom: 0px; }
+.CodeMirror-lines { padding-left: 4px; }
+.code-tooltip { box-shadow: rgba(0, 28, 36, 0.3) 0px 1px 1px 0px; border-top: 1px solid rgb(238, 242, 242); }
+.md-fences, code, tt { border: 1px solid rgb(231, 234, 237); background-color: rgb(248, 248, 248); border-radius: 3px; padding: 2px 4px 0px; font-size: 0.9em; }
+code { background-color: rgb(243, 244, 244); padding: 0px 2px; }
+.md-fences { margin-bottom: 15px; margin-top: 15px; padding-top: 8px; padding-bottom: 6px; }
+.md-task-list-item > input { margin-left: -1.3em; }
+@media print {
+  html { font-size: 13px; }
+  table, pre { break-inside: avoid; }
+  pre { overflow-wrap: break-word; }
+}
+.md-fences { background-color: rgb(248, 248, 248); }
+#write pre.md-meta-block { padding: 1rem; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247, 247); border: 0px; border-radius: 3px; color: rgb(119, 119, 119); margin-top: 0px !important; }
+.mathjax-block > .code-tooltip { bottom: 0.375rem; }
+.md-mathjax-midline { background: rgb(250, 250, 250); }
+#write > h3.md-focus::before { left: -1.5625rem; top: 0.375rem; }
+#write > h4.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+#write > h5.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+#write > h6.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+.md-image > .md-meta { border-radius: 3px; padding: 2px 0px 0px 4px; font-size: 0.9em; color: inherit; }
+.md-tag { color: rgb(167, 167, 167); opacity: 1; }
+.md-toc { margin-top: 20px; padding-bottom: 20px; }
+.sidebar-tabs { border-bottom: none; }
+#typora-quick-open { border: 1px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248); }
+#typora-quick-open-item { background-color: rgb(250, 250, 250); border-color: rgb(254, 254, 254) rgb(229, 229, 229) rgb(229, 229, 229) rgb(238, 238, 238); border-style: solid; border-width: 1px; }
+.on-focus-mode blockquote { border-left-color: rgba(85, 85, 85, 0.12); }
+header, .context-menu, .megamenu-content, footer { font-family: "Segoe UI", Arial, sans-serif; }
+.file-node-content:hover .file-node-icon, .file-node-content:hover .file-node-open-state { visibility: visible; }
+.mac-seamless-mode #typora-sidebar { background-color: var(--side-bar-bg-color); }
+.md-lang { color: rgb(180, 101, 77); }
+.html-for-mac .context-menu { --item-hover-bg-color: #E6F0FE; }
+#md-notification .btn { border: 0px; }
+.dropdown-menu .divider { border-color: rgb(229, 229, 229); }
+.ty-preferences .window-content { background-color: rgb(250, 250, 250); }
+.ty-preferences .nav-group-item.active { color: white; background: rgb(153, 153, 153); }
+
+ .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
+</style>
+</head>
+<body class='typora-export os-windows' >
+<div  id='write'  class = 'is-node'><h1><a name="whats-unique-about-hip-hop--is-eminem-an-alien" class="md-header-anchor"></a><span>What&#39;s Unique About Hip-Hop ? Is Eminem An Alien?</span></h1><p><img src='../figs/hiphop.jpg' alt='Hip-Hop' referrerPolicy='no-referrer' /></p><p><span>Hip-hop is a very representative genre of songs, as we all know its speed of singing is extraordinary fast. But apart from that, is it really different from other styles? Is Eminem&#39;s success just a coincidence? Or does he really have his uniqueness? There are many treasures hidden behind the lyrics, and we can find many rules and characteristics by exploring them. If you have ever dreamed of becoming a hip hop singer, you may want to get some inspiration through the secrets hidden in the lyrics.</span></p><p><span>The dataset we&#39;ve got is from  </span><a href='https://www.kaggle.com/gyani95/380000-lyrics-from-metrolyrics'><span>Kaggle</span></a><span>. It contains lyrics in 125704 songs from all variety of genres and ranging from the year 1968 to 2016. </span></p><div style="page-break-after:always;"></div><p>&nbsp;</p><h2><a name="table-of-contents" class="md-header-anchor"></a><span>Table Of Contents</span></h2><div class='md-toc' mdtype='toc'><p class="md-toc-content"><span class="md-toc-item md-toc-h1" data-ref="n0"><a class="md-toc-inner" style="cursor: pointer;" href="#whats-unique-about-hip-hop--is-eminem-an-alien">What's Unique About Hip-Hop ? Is Eminem An Alien?</a></span><span class="md-toc-item md-toc-h2" data-ref="n208"><a class="md-toc-inner" style="cursor: pointer;" href="#table-of-contents">Table Of Contents</a></span><span class="md-toc-item md-toc-h2" data-ref="n81"><a class="md-toc-inner" style="cursor: pointer;" href="#part-1-keep-up-with-hip-hop">Part 1. Keep Up With Hip-Hop</a></span><span class="md-toc-item md-toc-h3" data-ref="n8"><a class="md-toc-inner" style="cursor: pointer;" href="#1-evolution-of-all-lyrics">1. Evolution Of All Lyrics</a></span><span class="md-toc-item md-toc-h3" data-ref="n13"><a class="md-toc-inner" style="cursor: pointer;" href="#2-evolution-of-hip-hop-lyrics">2. Evolution Of Hip-Hop Lyrics</a></span><span class="md-toc-item md-toc-h2" data-ref="n85"><a class="md-toc-inner" style="cursor: pointer;" href="#part-2-exceptional-hip-hop">Part 2. Exceptional Hip-Hop </a></span><span class="md-toc-item md-toc-h3" data-ref="n20"><a class="md-toc-inner" style="cursor: pointer;" href="#1-most-common-words">1. Most Common Words</a></span><span class="md-toc-item md-toc-h3" data-ref="n26"><a class="md-toc-inner" style="cursor: pointer;" href="#2-size-of-vocabulary">2. Size Of Vocabulary</a></span><span class="md-toc-item md-toc-h3" data-ref="n33"><a class="md-toc-inner" style="cursor: pointer;" href="#3-amount-of-profanity">3. Amount Of Profanity</a></span><span class="md-toc-item md-toc-h3" data-ref="n37"><a class="md-toc-inner" style="cursor: pointer;" href="#4-sentiment-analysis">4. Sentiment Analysis</a></span><span class="md-toc-item md-toc-h2" data-ref="n89"><a class="md-toc-inner" style="cursor: pointer;" href="#part-3-are-you-eminem">Part 3. Are You Eminem?</a></span><span class="md-toc-item md-toc-h3" data-ref="n45"><a class="md-toc-inner" style="cursor: pointer;" href="#1-most-common-words">1. Most Common Words</a></span><span class="md-toc-item md-toc-h3" data-ref="n49"><a class="md-toc-inner" style="cursor: pointer;" href="#2-size-of-vocabulary">2. Size Of Vocabulary</a></span><span class="md-toc-item md-toc-h3" data-ref="n59"><a class="md-toc-inner" style="cursor: pointer;" href="#3-amount-of-profanity">3. Amount Of Profanity</a></span><span class="md-toc-item md-toc-h3" data-ref="n62"><a class="md-toc-inner" style="cursor: pointer;" href="#4-sentiment-analysis">4. Sentiment Analysis</a></span><span class="md-toc-item md-toc-h2" data-ref="n93"><a class="md-toc-inner" style="cursor: pointer;" href="#conclusion">Conclusion</a></span></p></div><div style="page-break-after:always;"></div><h2><a name="part-1-keep-up-with-hip-hop" class="md-header-anchor"></a><span>Part 1. Keep Up With Hip-Hop</span></h2><p><span>Let&#39;s start our journey by analyzing the most commonly used words in the lyrics.</span></p><h3><a name="1-evolution-of-all-lyrics" class="md-header-anchor"></a><span>1. Evolution Of All Lyrics</span></h3><p><span>The following word cloud plots are showing the transition of frequent words appearing in all songs during the half-century. Each one summarizes the 30 most popular words in a decade. The words in lyrics are stemmed and many stopwords are removed prior to generate the word clouds.</span></p><p><img src='../figs/WordClouds_All_By_Decades.png' alt='Most Common Words For All' referrerPolicy='no-referrer' /></p><p><span>From the above picture we can see that in these decades, the songs are basically created around a couple of core words. Topics about &#39;love&#39; and &#39;time&#39; are always the eternal theme in lyrics and do not fade as time passes by. Nothing interesting here.</span></p><p><span>But if you think you don&#39;t need to be creative to become a successful Hip-Hop singer, then you are very wrong. Life is never that simple.</span></p><h3><a name="2-evolution-of-hip-hop-lyrics" class="md-header-anchor"></a><span>2. Evolution Of Hip-Hop Lyrics</span></h3><p><span>Now Let&#39;s take a look at the evolution for Hip-Hop only. </span></p><p><img src='../figs/WordClouds_HipHop_By_Decades.png' alt='Most Common Words For Hip Hop' referrerPolicy='no-referrer' /></p><p><span>According to the word clouds above, there are some interesting changes. First of all, in the early days of Hip-Hop songs, they don&#39;t really care about love. The pursuit of sensuality and material is their focus. In the following decades, the trend starts to behave like other genres talking about love and time. Another interesting situation is that dirty words are used more frequently than other songs.</span></p><p><span>This fact is due to the background of Hip-Hop culture. Hip-hop originated from the bottom people of the United States. At that time, the United States had huge problems such as huge gap between the rich and the poor and racial discrimination. In the face of a huge class divide, the black people who are discriminated against are destitute, are powerless to change. They can only choose to use dirty words and expressions to vent their dissatisfaction with social injustice and dissatisfaction with white people.</span></p><div style="page-break-after:always;"></div><h2><a name="part-2-exceptional-hip-hop" class="md-header-anchor"></a><span>Part 2. Exceptional Hip-Hop </span></h2><p><span>In this part, we compare the differences between Hip-Hop and other genres from multiple aspects.</span></p><h3><a name="1-most-common-words" class="md-header-anchor"></a><span>1. Most Common Words</span></h3><p><span>By separating out the Hip-Hop from all other styles, we can have a clear comparison of the most common words. The top 20 frequently used words are picked out in the following word clouds and bar plots.</span></p><p><img src='../figs/WordClouds_HipHop_VS_Non_HipHop.png' alt='Comparisons' referrerPolicy='no-referrer' /></p><p><img src='../figs/Bar_HipHop_VS_Non_HipHop.png' alt='HipHop vs. non-HipHop' referrerPolicy='no-referrer' /></p><p><span>Although Hip-Hop singers like to use dirty languages, words like &#39;love&#39;, &#39;time&#39;, &#39;baby&#39; still appears in both categories and rank top. It says these topics are really the most concerned ones among all the works of life.</span></p><p><span>Hip-Hop singer don&#39;t need to be completely different from everyone else. There are many similarities between the singers&#39; hotspots and the topics and they just choose to use another way to express.</span></p><h3><a name="2-size-of-vocabulary" class="md-header-anchor"></a><span>2. Size Of Vocabulary</span></h3><p><span>In this part, we want to find some characteristics of Hip-Hop song&#39;s word numbers. We all know that Hip-Hop needs to speak fast, but how much faster are they? The following graphs show the characteristics of average word count by all genres. The data are calculated by dividing the total number of words by the number of songs for each genre.</span></p><p><img src='../figs/Words_Per_Song_By_Genres.png' alt='' referrerPolicy='no-referrer' /></p><p><span>The bar plot above shows that the average words per song are more than twice as many others, which makes this type of genre very distinct. As a common confusion, R&amp;B is hardly distinguished from Hip-Hop by many people. But as depicted above, the number of words between these two is enormous.</span></p><p><span>In addition, with the assumption that the average song length is almost the same across different genres, it can be concluded that Hip-Hop singers must speak more than twice as faster as other singers. </span></p><p><img src='../figs/Words_Per_Song_By_Genres_Distribution.png' alt='' referrerPolicy='no-referrer' /></p><p><span>From the box diagram above, we can also see that there is about 25 percent Hip-Hop whose lyrics are in the same range of other genres. This means that Hip-Hop songs are generally faster, but there are also some slower songs.</span></p><h3><a name="3-amount-of-profanity" class="md-header-anchor"></a><span>3. Amount Of Profanity</span></h3><p><span>Since we all know that Hip-Hop songs like to use junk words, how often do they use them? Now we pick out the four most common swear words and compare their frequencies to other non-hip hop styles.</span></p><p><img src='../figs/Profanity_Words_HipHop_VS_Non_HipHop.png' alt='' referrerPolicy='no-referrer' /></p><p><span>Although swearing is used in other song styles, we see that Hip-Hop songs use swearing much more than other songs. The most obvious of these is the n-word. It is a very typical word for racial discrimination, other genres are avoiding to make trouble but it aligns with the origin of Hip-Hop culture.</span></p><h3><a name="4-sentiment-analysis" class="md-header-anchor"></a><span>4. Sentiment Analysis</span></h3><p><code>TextBlob</code><span> is a popular python library to implement sentiment analysis. It returns a polarity  and subjectivity  value for each song. The polarity score is a float within the range [-1.0, 1.0] where -1 is negative and 1 is positive. The subjectivity is a float within the range [0.0, 1.0] where 0.0 is very objective and 1.0 is very subjective.</span></p><p><img src='../figs/Sentiments_HipHop_VS_Non_HipHop.png' alt='Sentiments' referrerPolicy='no-referrer' /></p><p><img src='../figs/Subjectivity_HipHop_VS_Non_HipHop.png' alt='Subjectivity' referrerPolicy='no-referrer' /></p><p><span>We can find that the emotions of Hip-Hop songs are not more negative or positive than the songs of other styles. Conversely, Hip-Hop songs are more focused on neutral styles as its both histogram are much deeper than other genres. Overall, they all tend to be positive </span></p><div style="page-break-after:always;"></div><h2><a name="part-3-are-you-eminem" class="md-header-anchor"></a><span>Part 3. Are You Eminem?</span></h2><p><span>Now let&#39;s focus on a hip hop singer —— Eminem. As a very successful hip hop singer, let&#39;s see if we can find some secrets of uniqueness from his lyrics.</span></p><p><img src='../figs/EminemHorn.jpg' alt='Eminem' referrerPolicy='no-referrer' /></p><h3><a name="1-most-common-words" class="md-header-anchor"></a><span>1. Most Common Words</span></h3><p><span>In this part, we want to see what is the difference between the most commonly used words in Eminem&#39;s lyrics and others and to check whether Eminem’s success is related to his common words. We compare them by examining some of the most frequently used words.</span></p><p><img src='../figs/WordClouds_Eminem_VS_Others.png' alt='' referrerPolicy='no-referrer' /></p><p><span>According to these two word clouds, there are some noticing differences between Eminem and other Hip-Hop singers. Eminem does not emphasize &#39;love&#39; like others. Instead, he uses more dirty words than usual as &#39;bxxxx&#39; and &#39;sxxx&#39; are quite prominent in the left plot. In addition, because he&#39;s a white man, he uses many &#39;white&#39; to represent his identity and culture. That is a huge difference between himself and other typical Hip-Hop singers. The high frequency of words &#39;eminem&#39;, &#39;shady&#39; and &#39;slim&#39; also shows his unique existence and alter ego.</span></p><h3><a name="2-size-of-vocabulary" class="md-header-anchor"></a><span>2. Size Of Vocabulary</span></h3><p><span>Let&#39;s compare the song and lyrics data of Eminem and other hip hop singers. The data are purely collected by counting how many songs belong to each singer.</span></p><p><img src='../figs/Hihop_Number_Of_Songs.png' alt='' referrerPolicy='no-referrer' /></p><p><span>Eminem has the second largest number of songs among these singers, with approximately 50 songs behind Chris Brown. Such a large output, on the one hand, shows the singer&#39;s enthusiasm for music. On the other hand, it also highlights the singer&#39;s own talent. </span></p><p><img src='../figs/Hiphop_Unique_Words.png' alt='' referrerPolicy='no-referrer' /></p><p><span>Although his total number of songs is the second, when the number of songs is large, the unique words will not actually increase much for each additional song, as most of the words are actually repeated. So by checking the use of unique words, we can find that Eminem has used the largest number of unique words in his lyrics, reflecting his quite diverse vocabulary list. </span></p><p><span>We can conclude from this point of view that being a successful Hip-Hop singer still requires a lot of knowledge accumulation. Hip-Hop culture comes from the bottom does not mean that you can put no efforts to learn.</span></p><p><span>Many people think that it&#39;s quite clear to hear Eminem&#39;s singing. Now we can know if it&#39;s the case by comparing the lyrics speed of the Hip-Hop singers by the number of lyrics in each song, with the assumption that the average lengths of songs are similar.</span></p><p><img src='../figs/Hiphop_Words_Per_Song.png' alt='' referrerPolicy='no-referrer' /></p><p><span>Eminem’s singing speed is actually fast, as you can see he is still in the top position among all Hip-Hop singers. However, he is not an alien. He still belongs to the normal range of singing speed among all Hip-Hop singers. This shows that Eminem does not stand out by his speed of singing.</span></p><h3><a name="3-amount-of-profanity" class="md-header-anchor"></a><span>3. Amount Of Profanity</span></h3><p><img src='../figs/Profanity_Words_Eminem_VS_Others.png' alt='' referrerPolicy='no-referrer' /></p><p><span>The interesting finding here is Eminem uses more than average amount of profane words except the n-word. On the one hand, he still maintains the characteristics of Hip-Hop singers and likes to use swear words to express his dissatisfaction and criticism of the society. On the other hand, he also emphasizes his particularity, and will not discuss too many cultures that are not his own.</span></p><h3><a name="4-sentiment-analysis" class="md-header-anchor"></a><span>4. Sentiment Analysis</span></h3><p><img src='../figs/Sentiments_Eminem_VS_Others.png' alt='' referrerPolicy='no-referrer' /></p><p><img src='../figs/Subjectivity_Eminem_VS_Others.png' alt='' referrerPolicy='no-referrer' /></p><p><span>Eminem is quite different. His lyrics are even more centric than other Hip-Hop singers, and tend to be somewhat negative. In the meantime, although the averaged subjectivity is neutral, he has many biased songs that expresses his attitude explicitly.</span></p><div style="page-break-after:always;"></div><h2><a name="conclusion" class="md-header-anchor"></a><span>Conclusion</span></h2><ol start='' ><li><p><span>Hip-Hop singers prefer to use much more dirty words in their lyrics, and it has been going on for a few decades. But like most people, they also like to write songs with the theme of love.</span></p></li><li><p><span>In general, Hip-Hop singers stay neutral attitude and speak twice as fast as other genres and are full of swear words.</span></p></li><li><p><span>Eminem’s success is not due to the exceptional speed of singing. Instead, he will change the words in his own songs to express his personality. And his song vocabulary and number of songs also reflect his talent.</span></p><p>&nbsp;</p></li></ol><p>&nbsp;</p></div>
+</body>
+</html>

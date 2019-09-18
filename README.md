@@ -1,5 +1,8 @@
 # Applied Data Science @ Columbia
 ## Fall 2019
+
+![Eminem](./figs/Eminem.jpg)
+
 ## Project 1: A "data story" on the songs of our times
 
 <img src="figs/title1.jpeg" width="500">
@@ -7,10 +10,10 @@
 ### [Project Description](doc/)
 Term: Fall 2019
 
-+ Project title: How to become a successful Hip-Hop star.
++ Project title: What's Unique About Hip-Hop ? Is Eminem An Alien?.
 + This project is conducted by Yifan Yang (yy2955)
 
-+ Project summary: [a short summary] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
++ Project summary: Hip-hop is a very representative genre of songs, as we all know its speed of singing is extraordinary fast. But apart from that, is it really different from other styles? Is Eminem's success just a coincidence? Or does he really have his uniqueness? There are many treasures hidden behind the lyrics, and we can find many rules and characteristics by exploring them. If you have ever dreamed of becoming a hip hop singer, you may want to get some inspiration through the secrets hidden in the lyrics.
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
